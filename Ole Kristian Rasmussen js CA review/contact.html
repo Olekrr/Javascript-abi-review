@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <ul class="navigation">
+        <a href="/index.html">home</a>
+        <a href="/contact.html">contact</a>
+    </ul>
+    <form class="contactform">
+      <div>
+        <label>
+            Name (required)
+          <input name="name" id="name" placeholder="Name" />
+        </label>
+        <div class="error" id="nameError">Please enter name</div>
+      </div>
+      <div>
+        <label>
+            Subject (minimum characters: 10)
+          <input name="subject" id="subject" placeholder="Subject" />
+        </label>
+        <div class="error" id="subjectError">Subject too short</div>
+      </div>
+      <div>
+        <label>
+            Email (example@email.com)
+          <input name="email" id="email" placeholder="Email" />
+        </label>
+        <div class="error" id="emailError">Please enter a valid email</div>
+      </div>
+      <div>
+        <label>
+            Address (minimum characters: 25)
+          <input name="address" id="address" placeholder="Address" />
+        </label>
+        <div class="error" id="addressError">Address too short</div>
+      </div>
+      <button>Submit</button>
+    </form>
+    <script src="/script/form.js"></script>
+  </body>
+</html>
+
+
